@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
 
@@ -11,3 +12,12 @@ int int_index(int *array, int size, int (*cmp)(int));
 
 #endif
 
+=======
+#ifndef FUNCTION_PROTOTYPES_H
+#define FUNCTION_PROTOTYPES_H
+
+void print_name(char *name, void (*f)(char *));
+
+
+#endif /* FUNCTION_PROTOTYPES_H */
+>>>>>>> ce2b05ed98e9ea4665dda15a0ca36d27d8d5b59a

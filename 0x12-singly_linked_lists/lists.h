@@ -10,6 +10,7 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
+/* Function prototypes */
 typedef struct list_s
 {
 	char *str;
